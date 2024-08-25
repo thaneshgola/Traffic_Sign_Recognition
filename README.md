@@ -12,3 +12,23 @@ The problem is to develop a Traffic-sign recognition system which can recognize 
 
 1. A huge collection of traffic signal taken under different scene is available as input. These signs may be not clearly visible, are challenging to process as they are taken from far
 2. Separate set of images are for testing the model is available
+
+## Dataset used in the project
+To implement this project, traffic sign data set is used. This data set can be downloaded from Kaggle  [here](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign).
+
+The data set used here is from German Traffic Sign Benchmark. Data set description is as follows:
+
+Number of images = 50,000
+-   Size of the data set = around 300 MB
+-   Number of classes = 43
+-   The class distribution is varying
+-   The train folder contains images that can be used to train
+-   The path of the reading the taring images are in Train.csv file
+-   Similarly, test folder has test images.
+
+Before implementing this project ensure, the following necessary packages are installed:
+-   **Keras** – CNN model building
+-   **Matplotlib** and seaborn - data visualization
+-   **Scikit-Learn** – Predicting and model summary
+-   **PIL, CV**- Image reading and processing
+-   **Pandas** – Data manipulation
